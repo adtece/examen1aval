@@ -1,0 +1,11 @@
+1. mkdir examen
+2. cd examen
+3. grep -n SI Alumnos.txt > si.txt
+4. mkdir si
+5. mv si.txt ./si
+6. cat Alumnos.txt | awk '{print $1, $2, $5}'
+7. grep -c Gonzalez Alumnos.txt
+8. cat Alumnos.txt | sed -z 's/Vicente/Pepe/g' > Alumnos.txt
+9. no se
+10. no se
+11. no se
